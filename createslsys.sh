@@ -22,7 +22,7 @@ SLKEY=$5
 COUNTER=1
 while [ $COUNTER -le $NODES ]
   do
-   slcli -y vs create --hostname=$HOSTNAME-icp$COUNTER --domain=$DOMAIN --cpu 2 --memory 4096 -o $OS --datacenter=$DATACENTER --billing=hourly --key=$SLKEY --network 100
+   slcli -y vs create --hostname=$HOSTNAME-icp$COUNTER --domain=$DOMAIN --cpu 2 --memory 4096 --disk 100 -o $OS --datacenter=$DATACENTER --billing=hourly --key=$SLKEY --network 100
    ((COUNTER++))
   done
 
