@@ -5,7 +5,7 @@
   
   The IBM Cloud private images need to be present in the same directory
   
-  It creates five instances of the specified operating system. By default each instance will have 2 vCPUS, 4 GB Memory and 25GB Hard Disk. To modify the size, modify createslsys.sh.
+  It creates five instances of the specified operating system. By default each instance will have 2 vCPUS, 4 GB Memory and 100GB Hard Disk. To modify the size, modify createslsys.sh.
   
   To install IBM Cloud private, the syntax is
   
