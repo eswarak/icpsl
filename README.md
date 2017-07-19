@@ -9,6 +9,6 @@
   
   To install IBM Cloud private, the syntax is
   
-  ./icpinstall.sh <softlayer user> <softlayer apikey> <hostname prefix> <domainname> <datacenter> <operatingsystem> <sshkeyname>
+  ./icpinstall.sh "softlayer user" "softlayer apikey" "hostname prefix" "domainname" "datacenter" "operatingsystem" "sshkeyname"
   
   Example: ./icpinstall.sh myuser 1234567890ab123def1234 myent mycwcloud.com dal13 UBUNTU_16_64 eicp1
